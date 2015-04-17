@@ -1,10 +1,8 @@
 <pre><code>
+git clone https://github.com/arenduc/vim.git .vim/
 cd .vim
 mkdir bundle
 git clone https://github.com/gmarik/Vundle.vim.git bundle/Vundle.vim
-"mkdir colors
-"cd colors
-"wget http://blog.toddwerth.com/entry_files/8/ir_black.vim
 vim
 :PluginInstall
 </pre></code>
